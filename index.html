@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadaća 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Caprasimo&display=swap" rel="stylesheet">
+	
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+<body>
+    <h1>Nova Gradiška</h1>
+
+    <p>Nova Gradiška je smještena u zapadnoj Slavoniji. Uz Slavonski Brod, jedan je od dva grada u Brodsko-posavskoj županiji.</p>
+
+    <p>Nova Gradiška se naziva i Najmlađi hrvatski grad.</p>
+	
+	<section class="popisi">
+        <h2>Osnovne informacije</h2>
+        <ul>
+            <li><strong>Poštanski broj:</strong> 35 400</li>
+            <li><strong>Pozivni broj:</strong> 035</li>
+            <li><strong>Broj stanovnika:</strong> 11 690 ( 229 st / km<sup>2</sup> )</li>
+                        
+        </ul>
+
+	<h2>Administracija i lokalna uprava:</h2>
+        <ol>
+            <li><strong>Gradska uprava:</strong> <em>gradonačelnik i gradsko vijeće</em></li>
+            <li><strong>Policijska postaja</strong> <span class="posebno">koja pokriva grad i okolne općine</span></li>
+			
+            
+        </ol>
+		</section>
+
+    <section class="znanstveni">
+        <h2>Kultura i manifestacije:</h2>
+        <p>
+            Turistička zajednica organizira razne manifestacije kao npr. <strong>„Novogradiško glazbeno Ljeto“</strong>
+Također postoje sajmovi, <em>folklorne smotre</em> i drugi lokalni kulturni događaji
+        </p>
+    </section>
+	<section class="kontakt">
+    <h2>Kontaktirajte Gradsku upravu Nove Gradiške</h2>
+    <p>
+        Imate prijedlog za poboljšanje života u gradu, želite pohvaliti manifestaciju 
+        ili prijaviti problem? Ovdje možete poslati poruku gradskoj upravi ili Turističkoj zajednici Nove Gradiške.
+    </p>
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Vaši podaci</legend>
+
+            <label for="ime">Ime i prezime:</label>
+            <input type="text" id="ime" name="ime" placeholder="Unesite svoje ime i prezime" required>
+
+            <label for="email">E-mail adresa:</label>
+            <input type="email" id="email" name="email" placeholder="ime@domena.com" required>
+
+            <label for="tema">Vrsta upita:</label>
+            <select id="tema" name="tema">
+                <option value="pohvala">Pohvala gradu</option>
+                <option value="manifestacija">Manifestacije i događanja</option>
+                <option value="prijedlog">Prijedlog za poboljšanje</option>
+                <option value="prijava">Prijava problema u gradu</option>
+            </select>
+
+           <label for="lokacija">Lokacija (ulica ili dio grada):</label> <input list="lokacije" id="lokacija" name="lokacija" placeholder="Npr. Trg kralja Tomislava"> 
+			
+<datalist id="lokacije"> 
+	<option value="Trg kralja Tomislava"> 
+	<option value="Ulica Slavonskih graničara">
+	<option value="Relkovićeva ulica">
+	<option value="Šetalište dr. Franje Tuđmana"> 
+	<option value="Industrijska zona"> 
+</datalist>
+
+			
+        </fieldset>
+
+        <fieldset>
+            <legend>Poruka</legend>
+            <label for="poruka">Vaša poruka:</label>
+            <input type="text" id="poruka" name="poruka" placeholder="Napišite svoju poruku...">
+        </fieldset>
+
+        <button type="submit" value="Pošalji">Pošalji poruku gradu</button>
+    </form>
+</section>
+
+
+</body>
+</html>

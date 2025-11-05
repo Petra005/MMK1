@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #DCAFD8;
+            color: #C794C2;
+            margin: 40px;
+        }
+
+section.popisi ul li strong {
+    color: black;
+}
+
+section.popisi ol li span.posebno {
+    color: black;
+    font-weight: bold;
+	}
+	
+ul {
+    list-style: square;
+}
+
+ol {
+    list-style: decimal;
+}
+	
+
+        h1 {font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+            color: #9C0083;
+            background-color: #C794C2;
+            padding: 15px;
+			text-align: center;
+			border-radius: 10px;
+        }
+h2 {
+    margin-top: 15px;
+    color: #090808;
+	text-align: center;
+			border-radius: 10px;
+}
+
+        p {font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+            font-weight: 400;
+            font-style: italic;
+            background-color: #DCAFD8;
+            color: #060606;
+            padding: 10px;
+            margin-bottom: 15px;
+			text-align: justify;
+        }
+section.popisi {
+    float: left;
+    width: 30%;
+	background-color: #9C0083;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+section.znanstveni {
+    clear: left;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+section.kontakt {
+    clear: both;
+    margin-top: 40px;
+    background-color: #C794C2;
+    padding: 20px;
+    border-radius: 10px;
+    color: #090808;
+    box-shadow: 0 0 10px rgba(156, 0, 131, 0.3);
+}
+
+section.kontakt h2 {
+    color: #9C0083;
+    background-color: #E8C4E5;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+section.kontakt p {
+    background: none;
+    color: #060606;
+    text-align: justify;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+fieldset {
+    border: 2px solid #9C0083;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #E8C4E5;
+}
+
+legend {
+    font-weight: bold;
+    color: #9C0083;
+    padding: 0 8px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #090808;
+    font-weight: bold;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #9C0083;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #C794C2;
+    box-shadow: 0 0 5px #9C0083;
+}
+
+button {
+    background-color: #9C0083;
+    color: white;
+    border: none;
+    font-size: 1em;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #DCAFD8;
+    color: #090808;
+    transform: scale(1.03);
+}
+
+body::after {
+    content: "";
+    display: block;
+    clear: both;
+}
